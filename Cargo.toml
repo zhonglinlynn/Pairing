@@ -36,4 +36,4 @@ version = "0.4"
 
 [features]
 gpu = []
-default = []
+default = ["gpu"]
