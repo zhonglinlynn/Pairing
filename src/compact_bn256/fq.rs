@@ -4,7 +4,7 @@ use ff::{Field, PrimeField, PrimeFieldRepr};
 cfg_if::cfg_if! {
     if #[cfg(feature = "asm")] {
         use ff::PrimeFieldAsm;
-        
+
         #[derive(PrimeFieldAsm)]
         #[PrimeFieldModulus = "21888242871839275222246405745257275088696311157297823662689037894645226208583"]
         #[PrimeFieldGenerator = "2"]
@@ -17,6 +17,7 @@ cfg_if::cfg_if! {
         pub struct Fq(FqRepr);
     }
 }
+
 
 // B coefficient of BN256 curve, B = 3
 // In Montgommery form with R = 2^256

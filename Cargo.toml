@@ -36,5 +36,5 @@ version = "0.4"
 
 [features]
 gpu = []
-asm = ["ff/asm_derive"]
+# asm = []
 default = ["gpu"]
