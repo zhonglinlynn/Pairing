@@ -12,14 +12,14 @@
 
 [package]
 edition = "2018"
-name = "pairing_ce"
+name = "pairing"
 version = "0.24.2"
-authors = ["Sean Bowe <ewillbefull@gmail.com>", "Jack Grigg <jack@z.cash>", "Alex Vlasov <alex.m.vlasov@gmail.com>", "Alex Gluchowski <alex@gluchowski.net>"]
+authors = ["zhonglin"]
 description = "Pairing-friendly elliptic curve library"
-homepage = "https://github.com/matter-labs/pairing"
+homepage = "https://github.com/zhonglinlynn/pairing.git"
 documentation = "https://docs.rs/pairing/"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/matter-labs/pairing"
+repository = "https://github.com/zhonglinlynn/pairing.git"
 [dependencies.byteorder]
 version = "1"
 

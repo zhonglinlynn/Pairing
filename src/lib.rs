@@ -27,7 +27,6 @@ pub mod bls12_381;
 pub mod bn256;
 pub mod compact_bn256;
 
-
 pub mod gpu_engine;
 
 mod wnaf;
